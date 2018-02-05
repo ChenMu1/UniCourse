@@ -3,7 +3,8 @@
 ## Screenshot
 
 ![Home](https://github.com/ChenMu1/UniCourse/blob/master/public/images/Home.png)
-![Add/Edit](https://github.com/ChenMu1/UniCourse/blob/master/public/images/Add_Edit.png)
+![Add](https://github.com/ChenMu1/UniCourse/blob/master/public/images/Add.png)
+![Edit](https://github.com/ChenMu1/UniCourse/blob/master/public/images/Edit.png)
 ![Delete](https://github.com/ChenMu1/UniCourse/blob/master/public/images/Delete.png)
 
 ## Get UniCourse by running
