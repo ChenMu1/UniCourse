@@ -1,0 +1,17 @@
+doctype html
+//- When the Angular script is loaded, ng-app attribute will look for this attribute in the DOM and if it finds it, it’ll hook itself into application.
+html(ng-app="Unicourse")
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+  body
+    block content
+    //- Main Angular framework
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js') 
+    //- Consuming RESTful APIs
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-resource.js')
+    //- Routing
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular-route.js')
+    //- Add reference
+    script(src='/javascripts/unicourse.js')

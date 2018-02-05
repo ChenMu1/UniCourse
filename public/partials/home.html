@@ -1,0 +1,19 @@
+<h1>Home Page</h1>
+<p>
+    <!--  /# is used for compatibility with older browsers that don’t support single-page applications. -->
+    <!--  Using a Angular binding expression to render a dynamic URL based on the ID of the course.  -->
+    <a href="/#/add-course">Add a Course</a> 
+</p>
+<ul>
+    <!-- ng-repeat is an expression similar to a foreach expression in Javascript -->
+    <li ng-repeat='course in courses'>
+        <!--courses is essentially the property than set in the $scope in the controller, course in coursess represents one course at a time in this array-->
+        <a href="/#/course/{{course._id}}">
+            <!--{{ }} to write expressions-->
+            {{course.title}}
+        </a>
+        <a href="/#/course/delete/{{course._id}}">
+            <i class="glyphicon glyphicon-remove"></i>
+        </a>
+    </li>
+</ul>

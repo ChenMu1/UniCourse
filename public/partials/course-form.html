@@ -1,0 +1,15 @@
+<h1>Add/Edit a Course</h1>
+
+<form>
+    <div class="form-group">
+        <label>Title</label>
+        <!-- The ng-model attribute is a directive that use for data binding, when the value of title text box is changed, Angular will automatically set it in $scope.course.title -->
+        <input class="form-control" ng-model="course.title"></input> 
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        <textarea class="form-control" ng-model="course.description"></textarea>
+    </div>
+    <!--The ng-click attribute is Angular directive that handle the click event of HTML elements, it should execute the save method on the $scope-->
+    <input type="button" class="btn btn-primary" value="Save" ng-click="save()"></input>	
+</form>
