@@ -6,7 +6,7 @@
 ![Add/Edit](https://github.com/ChenMu1/UniCourse/blob/master/public/images/Add_Edit.png)
 ![Delete](https://github.com/ChenMu1/UniCourse/blob/master/public/images/Delete.png)
 
-## Get UniCourse by running 
+## Get UniCourse by running
 
 * $ git clone  https://github.com/ChenMu1/UniCourse.git
 * $ cd Unicourse
@@ -32,6 +32,11 @@
 * Created a RESTful API using Express with support for GET, POST, PUT and DELETE.
 * Used Angular to build a single-page application
 
-## Data 
+## Data
 
 All related data in course.json
+
+## Addition Information
+
+* You might need to remove node-modules folder to run this application.
+* After you config the environment, nodemon will start your web server on port 3000 or mannually launch your browser and navigate to: http://localhost:3000
