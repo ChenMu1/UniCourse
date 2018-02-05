@@ -8,13 +8,12 @@
 
 ## Get UniCourse by running 
 
-& git clone  https://github.com/ChenMu1/UniCourse.git
-$ cd Unicourse
-$ npm install
-$ npm install nodemon -g
-$ npm install monk --save
-
-Then you can run nodemon
+* & git clone  https://github.com/ChenMu1/UniCourse.git
+* $ cd Unicourse
+* $ npm install
+* $ npm install nodemon -g
+* $ npm install monk --save
+* Then you can run nodemon
 
 ## Built with the following technologies
 
