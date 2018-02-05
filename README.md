@@ -8,7 +8,7 @@
 
 ## Get UniCourse by running 
 
-* & git clone  https://github.com/ChenMu1/UniCourse.git
+* $ git clone  https://github.com/ChenMu1/UniCourse.git
 * $ cd Unicourse
 * $ npm install
 * $ npm install nodemon -g
@@ -17,10 +17,10 @@
 
 ## Built with the following technologies
 
-* Node.js
-* AngularJs
 * MongoDB
 * Express
+* AngularJs
+* Node.js
 
 ## Additional Tools used in Unicourse
 
@@ -31,3 +31,7 @@
 * Application with full CRUD functionality using Node, Express, Angular and MongoDB.
 * Created a RESTful API using Express with support for GET, POST, PUT and DELETE.
 * Used Angular to build a single-page application
+
+## Data 
+
+All related data in course.json
