@@ -12,6 +12,7 @@
 * $ git clone  https://github.com/ChenMu1/UniCourse.git
 * $ cd Unicourse
 * $ npm install
+* $ npm install -g express-generator
 * $ npm install nodemon -g
 * $ npm install monk --save
 * Then you can run nodemon
